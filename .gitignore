@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Archivos generados
+dist/
+build/
+*.css.map
+
+# Archivos del entorno
+.env
+
+# Configuración del editor
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db

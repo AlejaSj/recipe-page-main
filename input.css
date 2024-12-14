@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h3 {
+        @apply text-lg font-bold text-rose800 mx-2 mb-2 ;
+    }
+    
+    ul{
+        @apply list-disc mx-6 ; 
+    }
+    
+    li{
+        @apply pl-10 opacity-75 my-1;
+    }  
+ 
+    h2{
+        @apply font-young  text-brown800 text-[30px] my-6; 
+    }
+
+    ol{  
+        @apply list-decimal mx-5;
+    }
+    td{
+        @apply py-2 border-b border-gray-300;
+    }
+    td.clase{
+        @apply py-2 border-none ;
+    }
+  }
